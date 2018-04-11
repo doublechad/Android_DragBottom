@@ -34,11 +34,7 @@ public class MainActivity extends AppCompatActivity {
         click3.setOnClickListener(new MyClickListener());
     }
 
-    public void go(View view) {
-        view.getHeight();
 
-        test.setY(1800);
-    }
     private class MyClickListener implements View.OnClickListener{
 
         @Override

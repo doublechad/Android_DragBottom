@@ -18,9 +18,10 @@
     <tw.org.iii.dragbottom.MyTestView
         android:id="@+id/test1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="1000px"
         android:background="#00f"
         android:orientation="vertical"
+
         >
 
     </tw.org.iii.dragbottom.MyTestView>
