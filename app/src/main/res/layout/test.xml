@@ -1,67 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/sv"
-    android:layout_height="500px"
-    android:layout_width="match_parent">
-    <LinearLayout
+    android:orientation="vertical">
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <TextView
-            android:text="我是標頭"
-            android:background="#f0f"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-             />
-        <Button
-            android:id="@+id/click1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="click1"/>
+        android:layout_height="20dp"
+        android:text="標頭"
+        android:background="#fff"/>
 
-        <Button
-            android:id="@+id/click3"
+        <tw.org.iii.dragbottom.MyListView
+            android:id="@+id/listview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="click3" />
+            android:layout_height="300dp"
+            android:background="#0f0"/>
 
-        <Button
-            android:id="@+id/click2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="click2"/>
 
-        <Button
-            android:id="@+id/click4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="click1"/>
-        <Button
-            android:id="@+id/click5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="click2"/>
-        <Button
-            android:id="@+id/click6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="click3"/>
-        <Button
-            android:id="@+id/click7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="click1"/>
-        <Button
-            android:id="@+id/click8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="click2"/>
-        <Button
-            android:id="@+id/click9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="click3"/>
-    </LinearLayout>
-</ScrollView>
+</LinearLayout>
+
+
+
